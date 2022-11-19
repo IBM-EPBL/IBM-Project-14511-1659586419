@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    animation: change 10s infinite ease-in-out;
+    
+}
+
+
+.btn{
+    width: 11%;
+    height: 10%;
+    padding: 10px ;
+    display: flex;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    margin-top: 10%;
+    margin-left: 50%;
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn1{
+    width: 7%;
+    height: 10%;
+    padding: 10px ;
+    display: flex;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    margin-top: 10%;
+    margin-left: 51%;
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+
+.btn1:hover{
+    opacity: 1;
+}
+
+.btn2{
+    width: 6%;
+    height: 10%;
+    padding: 10px ;
+    display: flex;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    margin-top: 10%;
+    margin-left: 51.5%;
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: .8;
+    transition: opacity .3s ease;
+
+}
+
+.btn2:hover{
+    opacity: 1;
+}
+
+
+
+@keyframes change{
+    0%
+    {
+        background-image: url(image2.jpg);
+    }
+    20%
+    {
+        background-image: url(image1.jpg);
+    }
+    40%
+    {
+        background-image: url(image3.jpg);
+    }
+    60%
+    {
+        background-image: url(image4.jpg);
+    }
+    80%
+    {
+        background-image: url(images/5.jpg);
+    }
+    100%
+    {
+        background-image: url(image2.jpg);
+    }
+}
